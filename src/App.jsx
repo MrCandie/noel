@@ -6,7 +6,7 @@ import Chart from "./components/chart";
 
 const Dashboard = () => {
   return (
-    <div className="min-h-screen bg-[#F5F5F5] text-[#120D1D] max-w-md mx-auto overflow-hidden shadow-2xl relative">
+    <div className="min-h-screen bg-[#fff] text-[#120D1D] max-w-md mx-auto overflow-hidden shadow-2xl relative">
       <div className="px-2">
         <Header />
       </div>
