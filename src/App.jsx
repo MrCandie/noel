@@ -1,39 +1,8 @@
-import React from "react";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  CartesianGrid,
-  ResponsiveContainer,
-  Cell,
-  LabelList,
-} from "recharts";
-import {
-  Search,
-  Bell,
-  Sliders,
-  LayoutGrid,
-  MessageCircle,
-  RefreshCw,
-  SearchCode,
-  Users,
-} from "lucide-react";
 import "./app.css";
 import { Header } from "./components/header";
 import StatsCard from "./components/stats-card";
 import ProfileList from "./components/profile-list";
 import Chart from "./components/chart";
-
-const data = [
-  { day: "Mon", val: 56 },
-  { day: "Tue", val: 89 },
-  { day: "Wed", val: 44 },
-  { day: "Thur", val: 67 },
-  { day: "Fri", val: 59 },
-  { day: "Sat", val: 87 },
-  { day: "Sun", val: 100 },
-];
 
 const Dashboard = () => {
   return (
@@ -49,8 +18,6 @@ const Dashboard = () => {
         <div
           style={{
             boxShadow: "0px 1px 2px 0px #0000004D",
-
-            // boxShadow: "0px 4px 7px 3px #00000026",
           }}
           className="bg-[#EFEFEF] rounded-full p-2 flex justify-between shadow-inner"
         >
@@ -66,10 +33,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Profile List Section */}
       <ProfileList />
-
-      {/* Custom Bottom Nav */}
     </div>
   );
 };
