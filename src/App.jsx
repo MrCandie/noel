@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import { Header } from "./components/header";
 import StatsCard from "./components/stats-card";
 import ProfileList from "./components/profile-list";
