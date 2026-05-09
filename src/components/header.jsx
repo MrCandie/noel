@@ -2,7 +2,7 @@ import { Bell } from "lucide-react";
 
 export function Header() {
   return (
-    <header className="bg-[#0B0712] text-white p-8 mt-4 px-10 rounded-[10px] relative overflow-hidden flex justify-between items-center h-[94px]">
+    <header className="bg-[#0B0712] text-white p-8 mt-2 px-10 rounded-[10px] relative overflow-hidden flex justify-between items-center h-[94px]">
       <div className="z-10">
         <h1 className="text-[24px] text-[#F3F0E9] font-extrabold leading-tight tracking-tight">
           Hello, Kwame!
