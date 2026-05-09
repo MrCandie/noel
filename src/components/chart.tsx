@@ -22,7 +22,7 @@ const data = [
 
 export default function RoadSlopeChart() {
   return (
-    <div className=" bg-[#F5F5F5] flex items-center justify-center p-6 font-sans">
+    <div className=" bg-[#F5F5F5] my-4 flex items-center justify-center p-6 font-sans">
       <div className="relative w-[531px] h-[331px]">
         <div className="absolute inset-0 overflow-hidden rounded-[28px] bg-[#C8DBD7]">
           <div className="absolute top-0 left-0 w-[118px] h-[56px] bg-[#F5F5F5] rounded-br-[28px] z-10" />
